@@ -1,27 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formulario.css">
-    <link rel="stylesheet" href="feedback.css">
-    <link rel="stylesheet" href="../index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formulario.css" />
+    <link rel="stylesheet" href="feedback.css" />
+    <link rel="stylesheet" href="../index.css" />
     <title>Feedback</title>
-</head>
-<header>
-    <h1>HEADER</h1>
-</header>
-<body>
-    <div class="mensagem feedback">
-        <h1>Muito obrigado por ajudar!!</h1>
+  </head>
+  <body>
+    <header id="topo" class="header">
+      <div class="header__container">
+        <div class="">
+          <a class="header__logo__link" href="../home_page/index.html">
+            <img
+              class="header__logo__img"
+              src="../../static/imgs/logo.svg"
+              alt="Logo da Gamelândia"
+            />
+            <p class="header_logo_texto">Gamelândia</p>
+          </a>
+        </div>
+        <div>
+          <nav class="navbar">
+            <a class="navbar_item" href="../home_page/index.html">Home</a>
+            <a class="navbar_item" href="../sobre_page/sobre.html">Sobre</a>
+            <a class="navbar_item" href="../sugerir_jogo_page/formulario.html"
+              >Sugerir Jogos</a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="container__feedback">
+      <article class="container__feedback__texto">
+        <h1 class="container__feedback__texto__titulo">Muito obrigado por ajudar!!</h1>
+        <img
+          class=""
+          src="../../static/imgs/confimar_envio-removebg-preview.png"
+          alt=""
+        />
         <h3>Nossa equipe agradece sua contribuição!</h3>
-        <h4>Sua sugestão já está conosco para nós analisarmos e assim que tivermos um retorno a respeito de sua melhoria, o comunicaremos via email.</br></br>
-        <a href="" >Clique aqui para voltar a home page e aos jogos!</h4></a>
-    </div>
-</body>
+        <h4>
+          Sua sugestão já está conosco para nós analisarmos e assim que tivermos
+          um retorno a respeito de sua melhoria, o comunicaremos via email.
+        </h4>
+        <a class="btn__voltar__home" href="../home_page/index.html"
+          >Clique aqui para voltar a home page e aos jogos!</a
+        >
+      </article>
+    </section>
 
-<footer>
-    <h2>FOOTER</h2>
-</footer>
-
+    <footer class="rodape">
+      <div class="rodape_container">
+        <a
+          class="rodape_link"
+          target="_blank"
+          href="https://github.com/Elias-Moura/happyGameFiap"
+        >
+          <img class="rodape_gh" src="../../static/imgs/git_hub.png" alt="" />
+          Github do projeto
+        </a>
+        <a class="rodape_link" href="#topo">Voltar ao topo da página</a>
+      </div>
+    </footer>
+  </body>
 </html>

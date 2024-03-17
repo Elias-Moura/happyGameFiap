@@ -1,6 +1,6 @@
 
 
-div {
+/* div {
     margin: 250px auto;
     text-align: left;
     text-align: center;
@@ -11,9 +11,45 @@ div {
     border-radius: 20px;
     padding: 10px 100px;
 
+} */
+
+.container__feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 70vh;
 }
 
-a {
+.container__feedback__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: grey;
+    padding: 1em;
+    border-radius: 10px;
+    color: white;
+    max-width: 650px;
+}
+
+.container__feedback__texto__titulo{
+    font-size: 2em;
+}
+
+
+.btn__voltar__home{
+    font-size: 1.15em;
+    color: white;
+}
+
+.btn__voltar__home:hover {
+    color: rgb(1, 185, 1);
+    transition: .5s;
+}
+
+
+/* a {
     text-decoration: none;
 }
 
@@ -27,4 +63,4 @@ a:active {
 
 a:visited {
     color: var(--color-azul);
-}
+} */
