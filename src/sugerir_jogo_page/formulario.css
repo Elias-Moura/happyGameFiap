@@ -1,79 +1,74 @@
-
-header{
-    top: 0;
-    left: 0;
-    position: fixed;
-    padding: 10px;
-    width: 100%;
-    background-color: var(--color-azul);
-    height:100px;
-    color: black;
-}
-
-html {
-    font-family:  monospace;
-    font-size: 1.8em;
-    color: var(--color-azul);
-    
-}
-
-body {
-    background-color: var(--color-clara);  
-    margin-top: 150px;
-}
-
-.cabecalho-formulario{
-    margin: 75px 0 20px 0;
-    text-align: center;
+.cabecalho-formulario {
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 .formulario {
-    padding: 12px 8px;
-    margin: auto;
-    border-radius: 20px;
-    max-width: 60%;
-    background-color: var(--color-amarelo);
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  margin: auto;
+  border-radius: 10px;
+  max-width: 650px;
+  background-color: grey;
+  text-align: left;
+  font-size: 1.25em;
+  color: white;
+  gap: 0.75em;
 }
 
-
-.input {
-    display: block;
-    margin: 8px;
-    text-align: left;
+main {
+  min-height: 61vh;
+  margin: 2em 0;
 }
 
-.caixa {
-    background-color: var(--color-clara);
-    font-family: monospace;
-    font-size: 0.8em;
-    border-radius: 8px;
-    border-style: none;
-    min-width: 100%;
-    display: block;
-    margin: auto;
+.input__container {
+  display: flex;
+  flex-direction: column;
 }
 
-.longo {
-    height: 75px;
+.input_input {
+  font-size: 1em;
+  padding: 0.3em;
+  border-radius: 5px;
 }
 
-.botao {
-    border-width: 0.1rem;
-    border-radius: 12px;
-    font-family: monospace;
-    font-size: 1em;
-    margin: 0 30px;    
+.textarea_placeholder {
+  font-size: 1em;
+  font-family: 'Poppins';
+  font-weight: 400;
 }
 
-.enviar {
-    background-color: var(--color-clara);
-    border-color: var(--color-azul);
-    color: var(--color-azul);
+.container__btn {
+  display: flex;
+  justify-content: space-around;
 }
 
-.limpar {
-    background-color: var(--color-azul);
-    border-color: var(--color-clara);
-    color: var(--color-clara);
+.btn__enviar,
+.btn__voltar {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.44);
 }
+
+.btn__enviar:hover,
+.btn__voltar:hover {
+  scale: 1.05;
+  transform: 0.5s;
+}
+
+.btn__voltar {
+  background-color: red;
+}
+
+.btn__enviar {
+  background-color: green;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border-color: var(--color-laranja1);
+    outline: 0;
+} 
