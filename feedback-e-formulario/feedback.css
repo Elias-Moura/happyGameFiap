@@ -1,0 +1,36 @@
+:root{
+    --color-azul:#0D3B66;
+    --color-clara:rgb(250, 240, 202);
+    --color-amarelo:#F4D35E;
+    --color-laranja1:#EE964B;
+    --color-laranja2:#F95738;
+}
+
+div {
+    margin: 250px auto;
+    text-align: left;
+    text-align: center;
+    max-width: 50%;
+    border-style: hidden;
+    padding-left: 10px;
+    background-color: var(--color-amarelo);
+    border-radius: 20px;
+    padding: 10px 100px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-laranja2);
+}
+
+a:active {
+    color: var(--color-laranja2);
+}
+
+a:visited {
+    color: var(--color-azul);
+}

@@ -1,0 +1,86 @@
+:root{
+    --color-azul:#0D3B66;
+    --color-clara:rgb(250, 240, 202);
+    --color-amarelo:#F4D35E;
+    --color-laranja1:#EE964B;
+    --color-laranja2:#F95738;
+}
+
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    background-color: var(--color-azul);
+    height:100px;
+    color: black;
+}
+
+html {
+    font-family:  monospace;
+    font-size: 1.8em;
+    color: var(--color-azul);
+    
+}
+
+body {
+    background-color: var(--color-clara);  
+    margin-top: 150px;
+}
+
+.cabecalho-formulario{
+    margin: 75px 0 20px 0;
+    text-align: center;
+}
+
+.formulario {
+    padding: 12px 8px;
+    margin: auto;
+    border-radius: 20px;
+    max-width: 60%;
+    background-color: var(--color-amarelo);
+    text-align: center;
+}
+
+
+.input {
+    display: block;
+    margin: 8px;
+    text-align: left;
+}
+
+.caixa {
+    background-color: var(--color-clara);
+    font-family: monospace;
+    font-size: 0.8em;
+    border-radius: 8px;
+    border-style: none;
+    min-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.longo {
+    height: 75px;
+}
+
+.botao {
+    border-width: 0.1rem;
+    border-radius: 12px;
+    font-family: monospace;
+    font-size: 1em;
+    margin: 0 30px;    
+}
+
+.enviar {
+    background-color: var(--color-clara);
+    border-color: var(--color-azul);
+    color: var(--color-azul);
+}
+
+.limpar {
+    background-color: var(--color-azul);
+    border-color: var(--color-clara);
+    color: var(--color-clara);
+}
