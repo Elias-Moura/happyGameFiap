@@ -1,0 +1,107 @@
+/* chamada da fonte do google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* configurações globais da CSS  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-azul:#0D3B66;
+    --color-clara:rgb(250, 240, 202);
+    --color-amarelo:#F4D35E;
+    --color-laranja1:#EE964B;
+    --color-laranja2:#F95738;
+}
+
+
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-clara);
+}
+
+
+.header {
+    background-color: var(--color-azul);
+}
+
+.header__container{
+    display: flex;
+    padding: 1.5em;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 1100px; */
+}
+
+.header__logo{
+    display: flex;
+    width: 45%;
+    align-items: center;
+}
+
+.header__logo__img {
+    width: 7.815em;
+}
+
+.header_logo_texto{
+    color: white;
+    text-decoration: none;
+    font-size: 1.75em;
+    margin-left: 1em;
+}
+
+.navbar {
+    display: flex;
+    gap: 1.25em;
+}
+
+.navbar_item {
+    background-color: var(--color-laranja2);
+    border-radius: .5em;
+    border: 1px;
+    text-decoration: none;
+    color: white;
+    padding: .25em .55em;
+    font-size: 1.25em;
+}
+
+.navbar_item:hover {
+    background: var(--color-laranja1);
+}
+
+.rodape {
+    padding: 1.5em 0;
+    background-color: var(--color-azul);
+}
+
+.rodape_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.rodape_gh {
+    width: 50px;
+}
+
+.rodape_link {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    color: white;
+}
+
+.rodape_link:hover {
+    transition: .25s;
+    font-weight: 500;
+}
+
+.texto-justificado {
+    text-align: justify;
+}

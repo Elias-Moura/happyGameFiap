@@ -1,0 +1,44 @@
+.container_principal{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 60%;
+    gap: 2em;
+    padding: 1em;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.subtitulo{
+text-align: center;
+}
+
+.conteudo p{
+    text-align: justify;
+    padding: .5em;
+}
+
+.container_devs {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_devs h2 {
+    text-align: center;
+}
+
+.lista_devs{
+    display: flex;
+}
+
+
+.lista_dev_item {
+    padding: 1em;
+    list-style-type: none;
+    
+}

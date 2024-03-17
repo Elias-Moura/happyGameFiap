@@ -1,13 +1,5 @@
 /* criando as roots */
 
-:root{
-    --color-azul:#0D3B66;
-    --color-clara:#FAF0CA;
-    --color-amarelo:#F4D35E;
-    --color-laranja1:#EE964B;
-    --color-laranja2:#F95738;
-}
-
 header{
     background-color: var(--color-azul);
     height:100px;
