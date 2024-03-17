@@ -1,14 +1,12 @@
 /* criando as roots */
 
-header{
+/* header{
     background-color: var(--color-azul);
     height:100px;
-}
+} */
 
 .container-jogo{
     width: 100%;
-    min-height: 100vh;
-    background-color: var(--color-clara);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,13 +16,13 @@ header{
 
 .jogo{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .jogo h1{
-    font-size: 30px;
-    padding: 1.5rem;
-    font-size: 2rem;
+    font-size: 2em;
+    padding: 1.5em;
+    font-size: 2em;
     font-weight: 600;
 }
 
@@ -36,37 +34,39 @@ header{
 
 .detalhes-jogo{
     width: 100%;
-    height: 70vh;
     display: flex;
+    margin-bottom: 4em;
     flex-direction: column;
     align-items: center;
     background-color: var(--color-clara);
 }
 
-.detalhes-jogo h2{
-    padding: 1.5rem;
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-.detalhes-jogo ul{
-    list-style: none;
+.detalhes-jogo__categoria{
     display: flex;
-    padding: 10px;
-    gap: 30px;
-    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
 }
 
-.detalhes-jogo li{
-    padding: 10px 50px;
-    background-color: var(--color-azul);
-    color: var(--color-clara);
-    font-weight: 800;
-    border-radius: 3px;
-    box-shadow: 1px 1px 3px rgb(0, 0,0,.5);
+.categoria__lista{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    list-style-type: none;
 }
+
+.categoria__lista__item{
+    font-size: 1.25em;
+}
+
+.categoria__titulo{
+    font-size: 2em;
+}
+
 
 .detalhes-jogo p{
-    width: 70%;
+    text-align: justify;
+    width: 50%;
     padding: 20px;
 }

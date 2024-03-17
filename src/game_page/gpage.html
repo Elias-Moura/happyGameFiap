@@ -1,50 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- chamada da CSS especifica da pagina -->
-    <link rel="stylesheet" href="gpage.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- chamada da css padrão para todas as paginas -->
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="gpage.css" />
+    <link rel="stylesheet" href="../index.css" />
 
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1>HEADER</h1>
+  </head>
+  <body>
+    <header id="topo" class="header">
+      <div class="header__container">
+        <div class="">
+          <a class="header__logo__link" href="../home_page/index.html">
+            <img
+              class="header__logo__img"
+              src="../../static/imgs/logo.svg"
+              alt="Logo da Gamelândia"
+            />
+            <p class="header_logo_texto">Gamelândia</p>
+          </a>
+        </div>
+        <div>
+          <nav class="navbar">
+            <a class="navbar_item" href="../home_page/index.html">Home</a>
+            <a class="navbar_item" href="../sobre_page/sobre.html">Sobre</a>
+            <a class="navbar_item" href="../sugerir_jogo_page/formulario.html"
+              >Sugerir Jogos</a
+            >
+          </nav>
+        </div>
+      </div>
     </header>
 
     <section class="container-jogo">
+      <div class="jogo">
+        <h1>CODE PANDA</h1>
 
-        <div class="jogo">
-            <h1>CODE PANDA</h1>
-
-            <iframe id="game" frameborder="0" allow="autoplay" allowfullscreen="" seamless="" scrolling="no" src="//html5.gamedistribution.com/rvvASMiM/a673d7286acc41c898d159aba8f1fe0e/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwww.coquinhos.com%2Fprogramar-o-panda%2Fplay%2F&amp;gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5jb3F1aW5ob3MuY29tL3Byb2dyYW1hci1vLXBhbmRhL3BsYXkvIiwicGFyZW50RG9tYWluIjoiY29xdWluaG9zLmNvbSIsInRvcERvbWFpbiI6ImNvcXVpbmhvcy5jb20iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D"></iframe>
-        </div>
+        <iframe
+          id="game"
+          frameborder="0"
+          allow="autoplay"
+          allowfullscreen=""
+          seamless=""
+          scrolling="no"
+          src="//html5.gamedistribution.com/rvvASMiM/a673d7286acc41c898d159aba8f1fe0e/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwww.coquinhos.com%2Fprogramar-o-panda%2Fplay%2F&amp;gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5jb3F1aW5ob3MuY29tL3Byb2dyYW1hci1vLXBhbmRhL3BsYXkvIiwicGFyZW50RG9tYWluIjoiY29xdWluaG9zLmNvbSIsInRvcERvbWFpbiI6ImNvcXVpbmhvcy5jb20iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D"
+        ></iframe>
+      </div>
     </section>
-
+    <section class="detalhes-jogo__categoria">
+        <h2 class="categoria__titulo">Categorias</h2>
+        <ul class="categoria__lista">
+            <li class="categoria__lista__item">Ciência</li>
+            <li class="categoria__lista__item">Programação</li>
+        </ul>
+    </section>
     <section class="detalhes-jogo">
-
-            <h2>Descrição do Jogo</h2>
-            <ul>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-            </ul>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque repellat inventore dolores, eaque possimus minima vero velit officiis labore nisi unde quidem harum! Iusto recusandae unde ad asperiores aut nemo.</p>
-            
+      <h2>Descrição do Jogo</h2>
+      <p>
+        Embarque em uma jornada educativa com o adorável Code Panda! Este jogo
+        on-line, desenvolvido pelo Programar al Panda, é uma maneira divertida e
+        interativa para crianças do ensino fundamental mergulharem no mundo da
+        programação e robótica. Através de desafios envolventes, os jogadores
+        aprenderão habilidades digitais essenciais para o seu futuro
+        profissional.
+      </p>
+      <p>
+        No universo de Code Panda, os jogadores programam o urso panda para
+        navegar por diversos obstáculos e alcançar o precioso bambu. Nos
+        estágios iniciais, eles dominam conceitos simples de programação, como
+        movimentos básicos em quatro direções. À medida que avançam, são
+        introduzidos a conceitos mais avançados, como loops para repetir
+        instruções e funções de salto com diferentes números de caixas para
+        saltar.
+      </p>
+      <p>
+        Com Code Panda, a aprendizagem se torna uma aventura cativante onde cada
+        desafio superado é uma conquista para o futuro digital das crianças.
+      </p>
     </section>
-
-    <footer>
-        <h2>FOOTER</h2>
+    <footer class="rodape">
+      <div class="rodape_container">
+        <a
+          class="rodape_link"
+          target="_blank"
+          href="https://github.com/Elias-Moura/happyGameFiap"
+        >
+          <img class="rodape_gh" src="../../static/imgs/git_hub.png" alt="" />
+          Github do projeto
+        </a>
+        <a class="rodape_link" href="#topo">Voltar ao topo da página</a>
+      </div>
     </footer>
-
-
-
-</body>
+  </body>
 </html>
-
