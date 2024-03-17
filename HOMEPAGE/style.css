@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    display: grid;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.trab {
+    background: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1100px;
+    max-height: 400px;
+    align-content: center;
+    gap: 40px;
+    margin: 10px;
+}
+h1 {
+    background: black
+}
+
+.foto {
+    max-width: 100%;
+    justify-self: center;
+    display: block;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.textos {
+    text-align: center;
+    color: #fff;
+    margin-top: 75px;
+}
+.textos p {
+    font-size: 20px;
+}
+
+.botao {
+    background: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.5em;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 20px;
+
+}
+a:visited,a:hover {
+    color: #000000;
+}
+
+.box {
+    display: grid;
+    justify-content: center;
+}
+.textos2 {
+    text-align: center;
+    color: #fff;
+
+}
+.textos2 p {
+    font-size: 20px;
+}
