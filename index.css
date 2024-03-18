@@ -115,3 +115,68 @@ html {
 .texto-justificado {
   text-align: justify;
 }
+
+.conteudo_principal {
+  display: grid;
+  justify-content: center;
+}
+
+.trab {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1100px;
+  max-height: 400px;
+  align-content: center;
+  gap: 100px;
+  margin: 50px 0;
+}
+
+.foto {
+  max-width: 100%;
+  justify-self: center;
+  display: block;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  text-align: center;
+  color: #000000;
+}
+
+
+.textos__titulo {
+  font-size: 2em;
+}
+
+.box {
+  color: white;
+  display: grid;
+  justify-content: center;
+}
+
+.botao {
+  background: var(--color-azul);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.5em;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.botao:hover{
+  transition: .25s;
+  scale: 1.1;
+}
+
+/* a:visited,
+a:hover {
+    color: #000000;
+} */
+
