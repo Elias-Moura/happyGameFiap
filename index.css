@@ -191,6 +191,21 @@ a:hover {
     color: #000000;
 } */
 
+
+
+@media(min-width:805px) and (max-width: 905px ) {
+
+  #primeira_image{
+    margin-top: 3em;
+  }
+
+  #middle_image{
+    margin-top: 7em;
+  }
+
+  
+}
+
 @media(min-width:775px) and (max-width: 805px ) {
   .textos{
     margin-top: 2em;
@@ -210,12 +225,12 @@ a:hover {
     margin-top: 1.5em;
   }
 
-  .foto{
-    margin-top: 5em;
-    padding: 0;
+  #primeira_image{
+    margin-top: 10em;
   }
-  .imag{
-    margin-top: 5em;
+
+  #middle_image{
+    margin-top: 14em;
   }
 
 
@@ -230,13 +245,13 @@ a:hover {
   .trab_container{
     margin-bottom: 7em;
   }
-  .foto{
-    margin-top: 5em;
-    padding: 0;
+
+  #primeira_image{
+    margin-top: 7em;
   }
 
-  #middle > {
-    margin-top: 50em;
+  #middle_image{
+    margin-top: 10em;
   }
 
 }
