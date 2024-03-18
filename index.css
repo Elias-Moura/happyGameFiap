@@ -79,7 +79,11 @@ html {
 }
 
 .navbar_item:hover {
-  background: var(--color-laranja1);
+  background: transparent;
+  color: var(--color-laranja2);
+  border: .15em solid var(--color-laranja2);
+  transform: scale(1.05);
+  transition: .2s;
 }
 
 .rodape {
@@ -268,7 +272,7 @@ a:hover {
       height: 100vh;
     }
     .middle{
-      margin-bottom: -13em;
+      margin-bottom: -15em;
       
     }
   }

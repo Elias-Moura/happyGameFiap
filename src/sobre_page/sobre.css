@@ -42,3 +42,21 @@ text-align: center;
     list-style-type: none;
     
 }
+
+@media(max-width:1150px) and (min-width:700px){
+    .container_principal{
+        width: 80%;
+    }
+
+}
+
+@media (max-width:700px){
+    .container_principal{
+        width: 90%;
+    }
+
+    .lista_devs{
+        display: flex;
+        flex-direction: column;
+    }
+}
