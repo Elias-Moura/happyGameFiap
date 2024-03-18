@@ -14,7 +14,7 @@
   --color-clara: rgb(250, 240, 202);
   --color-amarelo: #f4d35e;
   --color-laranja1: #ee964b;
-  --color-laranja2: #f95738;
+  --color-laranja2: #f95738; 
 }
 
 html {
@@ -25,8 +25,10 @@ html {
 
 
 .header {
-  background-color: var(--color-azul);
+  background: var(--color-azul);
   width: 100%;
+  box-shadow:1px 1px 5px rgb(0, 0, 0,.5);
+  
   
 }
 
@@ -91,6 +93,7 @@ html {
   width: 100%;
   background-color: var(--color-azul);
   position: relative;
+  box-shadow:1px 1px 5px rgb(0, 0, 0,.5);
   left: 0;
   bottom: 0;
 }
@@ -183,6 +186,7 @@ html {
   border-radius: 4px;
   font-weight: bold;
   margin: 20px;
+  box-shadow:1px 1px 3px rgb(0, 0, 0,.5);;
 }
 
 .botao:hover{
