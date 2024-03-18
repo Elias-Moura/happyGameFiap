@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 70vh;
 }
 
@@ -48,6 +48,9 @@
     transition: .5s;
 }
 
+.container__feedback__imagem{
+    width: 100%;
+}
 
 /* a {
     text-decoration: none;
