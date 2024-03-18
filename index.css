@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 :root {
@@ -19,10 +20,14 @@
 html {
   font-family: "Poppins", sans-serif;
   background-color: var(--color-clara);
+  
 }
+
 
 .header {
   background-color: var(--color-azul);
+  width: 100%;
+  
 }
 
 .header__container {
@@ -79,11 +84,11 @@ html {
 
 .rodape {
   padding: 1.5em 0;
-  width: 100vw;
+  width: 100%;
   background-color: var(--color-azul);
   position: relative;
-  bottom: 0;
   left: 0;
+  bottom: 0;
 }
 
 .rodape_container {
@@ -119,9 +124,10 @@ html {
 .conteudo_principal {
   display: grid;
   justify-content: center;
+
 }
 
-.trab {
+.trab_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1100px;
@@ -129,6 +135,8 @@ html {
   align-content: center;
   gap: 100px;
   margin: 50px 0;
+  padding: 1em;
+  
 }
 
 .foto {
@@ -137,6 +145,8 @@ html {
   display: block;
   max-height: 100%;
   border-radius: 10px;
+  margin-top: 1em;
+  padding: .5em;
 }
 
 .textos {
@@ -144,6 +154,7 @@ html {
   flex-direction: column;
   justify-content: center;
   gap: 1em;
+  padding: 1em;
   text-align: center;
   color: #000000;
 }
@@ -179,4 +190,83 @@ html {
 a:hover {
     color: #000000;
 } */
+
+@media(min-width:775px) and (max-width: 805px ) {
+  .textos{
+    margin-top: 2em;
+  }
+  .trab_container{
+    min-height: 100vh;
+    padding: 2em;
+    gap:1em;
+    margin-top:1em;
+    padding-top: 1em;
+  }
+  .trab > .textos{
+    margin-top: 3em;
+  }
+
+  .textos__titulo{
+    margin-top: 1.5em;
+  }
+
+  .foto{
+    margin-top: 5em;
+    padding: 0;
+  }
+  .imag{
+    margin-top: 5em;
+  }
+
+
+}
+@media (max-width:775px) and (min-width:650px){
+  
+  .header__container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+  }
+  .trab_container{
+    margin-bottom: 7em;
+  }
+  .foto{
+    margin-top: 5em;
+    padding: 0;
+  }
+
+  #middle > {
+    margin-top: 50em;
+  }
+
+}
+
+  @media (max-width:650px){
+    .header__container{
+      display: flex;
+      flex-direction: column;
+    }
+    .trab_container{
+      margin-bottom: 35em;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .middle{
+      margin-bottom: -13em;
+      
+    }
+  }
+  
+  
+
+  
+
+  
+  
+  
+  
+
+
+
 
