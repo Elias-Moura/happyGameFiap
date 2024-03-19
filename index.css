@@ -188,6 +188,23 @@ html {
   background: var(--color-laranja2);
 }
 
+.desenvolvedor a{
+  text-decoration: none;
+  color: var(--color-azul);
+}
+.desenvolvedor a:hover{
+  transition: .2s;
+  font-weight: 800;
+}
+
+.desenvolvedor img{
+  box-shadow: 1px 1px 3px rgb(0, 0, 0,.3);
+}
+
+.desenvolvedor img:hover{
+  scale: 1.05;
+  transition: .1s;
+}
 
 @media (min-width: 805px) and (max-width: 905px) {
   #primeira_image {
