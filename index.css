@@ -19,6 +19,7 @@
 html {
   font-family: "Poppins", sans-serif;
   background-color: var(--color-clara);
+  scroll-behavior: smooth;
 }
 
 .header {
