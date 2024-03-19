@@ -73,3 +73,7 @@ img{
     height: 150px;
     border-radius: 5px;
 }
+
+.em-construcao:hover {
+    filter: brightness(10%);
+}
