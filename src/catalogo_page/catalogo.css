@@ -1,12 +1,5 @@
-
-a{
-    text-decoration: none;
-    color: var(--color-clara);
-    font-weight: 900;
-}
-
 img{
-    width: 100%;
+    width: 90%;
 }
 
 .btn{
@@ -14,6 +7,8 @@ img{
     color: var(--color-azul);
     padding: 8px 3.5em;
     border-radius: 5px;
+    text-decoration: none;
+    font-weight: 800;
 }
 
 .btn:hover{
@@ -25,10 +20,10 @@ img{
 }
 
 .catalogo__titulo{
-    font-size: 5vmin;
-    font-weight: 400;
+    font-size: 3em;
+    font-weight: 600;
     text-align: center;
-    margin: 4em 0 2em;
+    margin: 1em ;
     color: var(--color-azul);
 }
 .catalogo__lista{
@@ -71,4 +66,10 @@ img{
     color: var(--color-clara);
     margin: 0 0 3em;
     width: 80%;
+}
+
+.catalogo__item img{
+    width: 70%;
+    height: 150px;
+    border-radius: 5px;
 }
