@@ -73,3 +73,38 @@ img{
     height: 150px;
     border-radius: 5px;
 }
+
+
+
+
+@media (max-width:950px){
+    .catalogo__item{
+        height: 50vh;
+    }
+    .catalogo__item h3{
+        margin: .5em 0;
+    }
+    .catalogo__item img{
+        width: 100%;
+    }
+}
+@media (max-width:713px){
+    .catalogo__item{
+        height: 50vh;
+    }
+    .catalogo__item h3{
+        font-size: 1em;
+        margin: 1em 0;
+    }
+
+    .btn{
+        padding: 8px 1.6em;
+    }
+
+    .catalogo__item img{
+        width: 100%;
+        height: 18vh;
+    }
+}
+
+    
