@@ -6,7 +6,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 }
 
 :root {
@@ -14,22 +13,18 @@
   --color-clara: rgb(250, 240, 202);
   --color-amarelo: #f4d35e;
   --color-laranja1: #ee964b;
-  --color-laranja2: #f95738; 
+  --color-laranja2: #f95738;
 }
 
 html {
   font-family: "Poppins", sans-serif;
   background-color: var(--color-clara);
-  
 }
-
 
 .header {
   background: var(--color-azul);
   width: 100%;
-  box-shadow:1px 1px 5px rgb(0, 0, 0,.5);
-  
-  
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.5);
 }
 
 .header__container {
@@ -38,8 +33,6 @@ html {
   justify-content: space-evenly;
   align-items: center;
   gap: 2em;
-
-  /* max-width: 1100px; */
 }
 
 .header__logo__link {
@@ -83,9 +76,9 @@ html {
 .navbar_item:hover {
   background: transparent;
   color: var(--color-laranja2);
-  border: .15em solid var(--color-laranja2);
+  border: 0.15em solid var(--color-laranja2);
   transform: scale(1.05);
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .rodape {
@@ -93,7 +86,7 @@ html {
   width: 100%;
   background-color: var(--color-azul);
   position: relative;
-  box-shadow:1px 1px 5px rgb(0, 0, 0,.5);
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.5);
   left: 0;
   bottom: 0;
 }
@@ -131,7 +124,6 @@ html {
 .conteudo_principal {
   display: grid;
   justify-content: center;
-
 }
 
 .trab_container {
@@ -143,7 +135,6 @@ html {
   gap: 100px;
   margin: 50px 0;
   padding: 1em;
-  
 }
 
 .foto {
@@ -153,7 +144,7 @@ html {
   max-height: 100%;
   border-radius: 10px;
   margin-top: 1em;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .textos {
@@ -165,7 +156,6 @@ html {
   text-align: center;
   color: #000000;
 }
-
 
 .textos__titulo {
   font-size: 2em;
@@ -186,110 +176,87 @@ html {
   border-radius: 4px;
   font-weight: bold;
   margin: 20px;
-  box-shadow:1px 1px 3px rgb(0, 0, 0,.5);;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
 }
 
-.botao:hover{
-  transition: .25s;
+.botao:hover {
+  transition: 0.25s;
   scale: 1.1;
 }
 
-/* a:visited,
-a:hover {
-    color: #000000;
-} */
-
-
-
-@media(min-width:805px) and (max-width: 905px ) {
-
-  #primeira_image{
-    margin-top: 3em;
-  }
-
-  #middle_image{
-    margin-top: 7em;
-  }
-
-  
+.btn__jogar {
+  background: var(--color-laranja2);
 }
 
-@media(min-width:775px) and (max-width: 805px ) {
-  .textos{
-    margin-top: 2em;
-  }
-  .trab_container{
-    min-height: 100vh;
-    padding: 2em;
-    gap:1em;
-    margin-top:1em;
-    padding-top: 1em;
-  }
-  .trab > .textos{
+
+@media (min-width: 805px) and (max-width: 905px) {
+  #primeira_image {
     margin-top: 3em;
   }
 
-  .textos__titulo{
+  #middle_image {
+    margin-top: 7em;
+  }
+}
+
+@media (min-width: 775px) and (max-width: 805px) {
+  .textos {
+    margin-top: 2em;
+  }
+  .trab_container {
+    min-height: 100vh;
+    padding: 2em;
+    gap: 1em;
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+  .trab > .textos {
+    margin-top: 3em;
+  }
+
+  .textos__titulo {
     margin-top: 1.5em;
   }
 
-  #primeira_image{
+  #primeira_image {
     margin-top: 10em;
   }
 
-  #middle_image{
+  #middle_image {
     margin-top: 14em;
   }
-
-
 }
-@media (max-width:775px) and (min-width:650px){
-  
-  .header__container{
+@media (max-width: 775px) and (min-width: 650px) {
+  .header__container {
     display: flex;
     flex-direction: column;
     margin-bottom: 5em;
   }
-  .trab_container{
+  .trab_container {
     margin-bottom: 7em;
   }
 
-  #primeira_image{
+  #primeira_image {
     margin-top: 7em;
   }
 
-  #middle_image{
+  #middle_image {
     margin-top: 10em;
   }
-
 }
 
-  @media (max-width:650px){
-    .header__container{
-      display: flex;
-      flex-direction: column;
-    }
-    .trab_container{
-      margin-bottom: 35em;
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-    }
-    .middle{
-      margin-bottom: -15em;
-      
-    }
+@media (max-width: 650px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
   }
-  
-  
-
-  
-
-  
-  
-  
-  
-
-
-
-
+  .trab_container {
+    margin-bottom: 35em;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .middle {
+    margin-bottom: -15em;
+  }
+}
