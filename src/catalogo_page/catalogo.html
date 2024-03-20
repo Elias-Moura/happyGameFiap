@@ -1,129 +1,170 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EducaGames</title>
-    <link rel="shortcut icon" href="../../static/imgs/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../../index.css">
-    <link rel="stylesheet" href="catalogo.css">
-</head>
+    <link
+      rel="shortcut icon"
+      href="../../static/imgs/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="catalogo.css" />
+  </head>
 
-<body>
+  <body>
     <header id="topo" class="header">
-        <div class="header__container">
-            <div class="">
-                <a class="header__logo__link" href="../../index.html">
-                    <img class="header__logo__img" src="../../static/imgs/logo.svg" alt="Logo da Gamelândia" />
-                    <p class="header_logo_texto">EducaGames</p>
-                </a>
-            </div>
-            <div>
-                <nav class="navbar">
-                    <a class="navbar_item" href="../catalogo_page/catalogo.html">Jogar</a>
-                    <a class="navbar_item" href="../../index.html">Home</a>
-                    <a class="navbar_item" href="../sugerir_jogo_page/formulario.html">Sugerir Jogos</a>
-                </nav>
-            </div>
+      <div class="header__container">
+        <div class="">
+          <a class="header__logo__link" href="../../index.html">
+            <img
+              class="header__logo__img"
+              src="../../static/imgs/logo.svg"
+              alt="Logo da Gamelândia"
+            />
+            <p class="header_logo_texto">EducaGames</p>
+          </a>
         </div>
+        <div>
+          <nav class="navbar">
+            <a class="navbar_item" href="../catalogo_page/catalogo.html"
+              >Jogar</a
+            >
+            <a class="navbar_item" href="../../index.html">Home</a>
+            <a class="navbar_item" href="../sugerir_jogo_page/formulario.html"
+              >Sugerir Jogos</a
+            >
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
+      <section>
+        <h2 class="catalogo__titulo">Jogos mais acessados</h2>
+        <table class="tabela__mais_acessados">
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Jogo</th>
+                    <th>Número de Jogadores</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Code Panda</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Quebra cabeça</td>
+                    <td>666</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Tabuada mágina</td>
+                    <td>42</td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+      <section>
         <h2 class="catalogo__titulo">Jogos</h2>
-
         <div class="catalogo__lista">
-            <!-- primeiro item  -->
-            <div class="catalogo__item">
-                <img src="../../static/imgs/code_panda.webp" alt="code panda">
-                <h3>Code Panda</h3>
-                <p>Aprenda a base da programação com o panda!! </p>
-                <a href="../game_page/gpage.html" class="btn"> Jogar</a>
-            </div>
-            <!-- fim primeiro item  -->
-
-            <!-- segundo item  -->
-            <div class="catalogo__item em-construcao">
-                <img src="../../static/imgs/em-construção.png" alt="Em construção" >
-                <h3>Jogo indisponível!</h3>
-                <p>Jogo ainda em construção... Volte mais tarde para conferir as novidade...</p>
-                <a href=# class="btn"> Jogar</a>
-            </div>
-            <!-- fim segundo item  -->
-
-            <!-- inicio 3 item  -->
-            <div class="catalogo__item em-construcao">
-                <img src="../../static/imgs/em-construção.png" alt="Em construção">
-                <h3>Jogo indisponível!</h3>
-                <p>Jogo ainda em construção... Volte mais tarde para conferir as novidade...</p>
-                <a href=# class="btn"> Jogar</a>
-            </div>
-            <!-- fim item 3  -->
-
-            <!-- inicio item 4  -->
-            <div class="catalogo__item em-construcao">
-                <img src="../../static/imgs/em-construção.png" alt="Em construção">
-                <h3>Jogo indisponível!</h3>
-                <p>Jogo ainda em construção... Volte mais tarde para conferir as novidade...</p>
-                <a href=# class="btn"> Jogar</a>
-            </div>
-            <!-- fim item 4  -->
-
-            <!-- inicio item 5  -->
-            <div class="catalogo__item em-construcao">
-                <img src="../../static/imgs/em-construção.png" alt="Em construção">
-                <h3>Jogo indisponível!</h3>
-                <p>Jogo ainda em construção... Volte mais tarde para conferir as novidade...</p>
-                <a href=# class="btn"> Jogar</a>
-            </div>
-            <!-- fim item 5  -->
-
-            <!-- inicio item 6  -->
-            <div class="catalogo__item em-construcao">
-                <img src="../../static/imgs/em-construção.png" alt="Em construção">
-                <h3>Jogo indisponível!</h3>
-                <p>Jogo ainda em construção... Volte mais tarde para conferir as novidade...</p>
-                <a href=# class="btn"> Jogar</a>
-            </div>
-            <!-- fim item 6  -->
-
-            <!-- inicio item 7  -->
-            <div class="catalogo__item em-construcao">
-                <img src="../../static/imgs/em-construção.png" alt="Em construção">
-                <h3>Jogo indisponível!</h3>
-                <p>Jogo ainda em construção... Volte mais tarde para conferir as novidade...</p>
-                <a href=# class="btn"> Jogar</a>
-            </div>
-            <!-- fim item 7  -->
-
-            <!-- inicio item 8  -->
-            <div class="catalogo__item em-construcao">
-                <img src="../../static/imgs/em-construção.png" alt="Em construção">
-                <h3>Jogo indisponível!</h3>
-                <p>Jogo ainda em construção... Volte mais tarde para conferir as novidade...</p>
-                <a href=# class="btn"> Jogar</a>
-            </div>
-            <!-- fim item 8  -->
-
-            <!-- inicio item 9  -->
-            <div class="catalogo__item em-construcao">
-                <img src="../../static/imgs/em-construção.png" alt="Em construção">
-                <h3>Jogo indisponível!</h3>
-                <p>Jogo ainda em construção... Volte mais tarde para conferir as novidade...</p>
-                <a href=# class="btn"> Jogar</a>
-            </div>
-            <!-- fim item 9  -->
+          <div class="catalogo__item">
+            <img src="../../static/imgs/code_panda.webp" alt="code panda" />
+            <h3>Code Panda</h3>
+            <p>Aprenda a base da programação com o panda!!</p>
+            <a href="../game_page/gpage.html" class="btn"> Jogar</a>
+          </div>
+          <div class="catalogo__item em-construcao">
+            <img
+              src="../../static/imgs/em-construção.png"
+              alt="Em construção"
+            />
+            <h3>Jogo indisponível!</h3>
+            <p>Jogo ainda em construção. Volte mais tarde.</p>
+            <a href="#" class="btn"> Jogar</a>
+          </div>
+          <div class="catalogo__item em-construcao">
+            <img
+              src="../../static/imgs/em-construção.png"
+              alt="Em construção"
+            />
+            <h3>Jogo indisponível!</h3>
+            <p>Jogo ainda em construção. Volte mais tarde.</p>
+            <a href="#" class="btn"> Jogar</a>
+          </div>
+          <div class="catalogo__item em-construcao">
+            <img
+              src="../../static/imgs/em-construção.png"
+              alt="Em construção"
+            />
+            <h3>Jogo indisponível!</h3>
+            <p>Jogo ainda em construção. Volte mais tarde.</p>
+            <a href="#" class="btn"> Jogar</a>
+          </div>
+          <div class="catalogo__item em-construcao">
+            <img
+              src="../../static/imgs/em-construção.png"
+              alt="Em construção"
+            />
+            <h3>Jogo indisponível!</h3>
+            <p>Jogo ainda em construção. Volte mais tarde.</p>
+            <a href="#" class="btn"> Jogar</a>
+          </div>
+          <div class="catalogo__item em-construcao">
+            <img
+              src="../../static/imgs/em-construção.png"
+              alt="Em construção"
+            />
+            <h3>Jogo indisponível!</h3>
+            <p>Jogo ainda em construção. Volte mais tarde.</p>
+            <a href="#" class="btn"> Jogar</a>
+          </div>
+          <div class="catalogo__item em-construcao">
+            <img
+              src="../../static/imgs/em-construção.png"
+              alt="Em construção"
+            />
+            <h3>Jogo indisponível!</h3>
+            <p>Jogo ainda em construção. Volte mais tarde.</p>
+            <a href="#" class="btn"> Jogar</a>
+          </div>
+          <div class="catalogo__item em-construcao">
+            <img
+              src="../../static/imgs/em-construção.png"
+              alt="Em construção"
+            />
+            <h3>Jogo indisponível!</h3>
+            <p>Jogo ainda em construção. Volte mais tarde.</p>
+            <a href="#" class="btn"> Jogar</a>
+          </div>
+          <div class="catalogo__item em-construcao">
+            <img
+              src="../../static/imgs/em-construção.png"
+              alt="Em construção"
+            />
+            <h3>Jogo indisponível!</h3>
+            <p>Jogo ainda em construção. Volte mais tarde.</p>
+            <a href="#" class="btn"> Jogar</a>
+          </div>
         </div>
-
+      </section>
     </main>
     <footer class="rodape">
-        <div class="rodape_container">
-            <a class="rodape_link" target="_blank" href="https://github.com/Elias-Moura/happyGameFiap">
-                <img class="rodape_gh" src="../../static/imgs/git_hub.png" alt="" />
-                Github do projeto
-            </a>
-            <a class="rodape_link" href="#topo">Voltar ao topo da página</a>
-        </div>
+      <div class="rodape_container">
+        <a
+          class="rodape_link"
+          target="_blank"
+          href="https://github.com/Elias-Moura/happyGameFiap"
+        >
+          <img class="rodape_gh" src="../../static/imgs/git_hub.png" alt="" />
+          Github do projeto
+        </a>
+        <a class="rodape_link" href="#topo">Voltar ao topo da página</a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
