@@ -72,12 +72,13 @@ html {
   color: white;
   padding: 0.25em 0.55em;
   font-size: 1.25em;
+  border: 0.02em solid var(--color-laranja2);
 }
 
 .navbar_item:hover {
   background: transparent;
   color: var(--color-laranja2);
-  border: 0.15em solid var(--color-laranja2);
+  border: 0.02em solid var(--color-laranja2);
   transform: scale(1.05);
   transition: 0.2s;
 }
@@ -244,7 +245,8 @@ html {
     margin-top: 14em;
   }
 }
-@media (max-width: 775px) and (min-width: 650px) {
+
+@media (max-width: 793px) and (min-width: 650px) {
   .header__container {
     display: flex;
     flex-direction: column;
