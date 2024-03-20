@@ -1,5 +1,8 @@
 # Projeto FIAP 1º Semetre
 
+# Página em produção:
+[Clique aqui para ver a página em produção.](https://elias-moura.github.io/happyGameFiap/index.html)
+
 ## Primeira entrega
 ### Escopo do projeto
 
